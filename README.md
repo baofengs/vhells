@@ -22,13 +22,13 @@ Vhells 是 `Vue Whells` 的缩写，一个 Vue UI 组件库。旨在通过造 Vu
 - [ ] Table
 - [ ] Tree
 
-# 使用到的工具
+# Tools
 
-打包：
+build：
 - Parcel
 - vue-cli3
 
-测试：
+test：
 - Travis CI
 - Karma
 - Mocha
