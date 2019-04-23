@@ -1,5 +1,7 @@
 # Vhells
 
+[![Build Status](https://travis-ci.org/x-bao/vhells.svg?branch=master)](https://travis-ci.org/x-bao/vhells)
+
 Vhells 是 `Vue Whells` 的缩写，一个 Vue UI 组件库。旨在通过造 Vue UI 组件轮子，提升以下技能：
 
 1. 深入理解 Vue 功能；
