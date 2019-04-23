@@ -2,8 +2,8 @@ const expect = chai.expect;
 import Vue from 'vue';
 import Input from '../lib/input/input';
 
-const isHeadlessChrome = /\bHeadlessChrome\//.test(navigator.userAgent)
-Vue.config.devtools = !isHeadlessChrome
+// const isHeadlessChrome = /\bHeadlessChrome\//.test(navigator.userAgent)
+Vue.config.devtools = false;
 Vue.config.productionTip = false;
 
 describe('input', () => {
@@ -85,7 +85,7 @@ describe('input', () => {
             vm.$el.remove();
             vm.$destroy();
         });
-        
+
         const events = ['change', 'blur', 'focus', 'input'];
 
         events.map(eventName => {
@@ -148,6 +148,4 @@ describe('input', () => {
         // });
 
     });
-
-    
 });
