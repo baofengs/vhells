@@ -10,6 +10,7 @@
 <script>
 import Icon from '../icon/Icon';
 export default {
+    name: 'VButton',
     components: {Icon},
     props: {
         icon: {},
@@ -70,6 +71,7 @@ export default {
     border: 1px solid $v-border-color;
     &:hover {
         background-color: $v-hover-color;
+        cursor: pointer;
     }
     &:active {
         outline: none;
