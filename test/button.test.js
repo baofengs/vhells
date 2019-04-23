@@ -101,4 +101,5 @@ describe('Button', () => {
         vm.$el.click();
         expect(callback).to.have.been.called;
     });
+    
 });
