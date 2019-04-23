@@ -5,7 +5,10 @@
 </template>
 
 <script>
+import './svg';
+
 export default {
+    name: 'v-icon',
     props: ['icon']
 }
 </script>

@@ -2,6 +2,10 @@ const expect = chai.expect;
 import Vue from 'vue';
 import Button from '../lib/button/button';
 
+const isHeadlessChrome = /\bHeadlessChrome\//.test(navigator.userAgent)
+Vue.config.devtools = !isHeadlessChrome
+Vue.config.productionTip = false
+
 describe('Button', () => {
     let Constructor = Vue.extend(Button);
     let vm;

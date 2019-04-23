@@ -10,7 +10,7 @@
 <script>
 import Icon from '../icon/Icon';
 export default {
-    name: 'VButton',
+    name: 'v-button',
     components: {Icon},
     props: {
         icon: {},
@@ -86,7 +86,7 @@ export default {
         width: 100%;
     }
     &-small {
-        font-size: $v-font-size-caption;
+        font-size: $v-caption-font-size;
         line-height: 24px;
     }
     &-icon {

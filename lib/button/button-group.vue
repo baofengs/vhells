@@ -4,7 +4,7 @@
 
 <script>
 export default {
-    name: 'VButtonGroup',
+    name: 'v-button-group',
     mounted () {
         for (let node of this.$el.children) {
             const name = node.nodeName.toLowerCase();

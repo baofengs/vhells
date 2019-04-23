@@ -1,6 +1,10 @@
 <template>
     <div class="cmp-app">
         <div class="box">
+            <v-input></v-input>
+            <v-input disabled></v-input>
+        </div>
+        <div class="box">
             <v-button :loading="loading" @click="onClick" size="big">按钮</v-button>
             <v-button :loading="loading" @click="onClick" icon="setting" size="small">按钮</v-button>
             <v-button :loading="loading" @click="onClick" icon="setting" icon-position="right">按钮</v-button>
@@ -19,11 +23,13 @@
 <script>
 import Button from './button/button';
 import ButtonGroup from './button/button-group';
+import Input from './input/input';
 
 export default {
     components: {
         'v-button': Button,
-        'v-button-group': ButtonGroup
+        'v-button-group': ButtonGroup,
+        'v-input': Input
     },
     data () {
         return {

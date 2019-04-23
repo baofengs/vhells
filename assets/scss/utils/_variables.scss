@@ -1,12 +1,10 @@
-// font-size
 $v-font-size: 14px;
-$v-font-size-h1: 20px;
-$v-font-size-h2: 18px;
-$v-font-size-h3: 16px;
-$v-font-size-small: 13px;
-$v-font-size-caption: 12px;
+$v-h1-font-size: 20px;
+$v-h2-font-size: 18px;
+$v-h3-font-size: 16px;
+$v-small-font-size: 13px;
+$v-caption-font-size: 12px;
 
-// colors
 $v-blue: #2EA2F8;
 $v-yellow: #FABE3C;
 $v-green: #36AF47;
@@ -23,6 +21,16 @@ $v-disabled-color: #F2F4F7;
 $v-normal-color: #F8FAFC;
 $v-hover-color: #F0F3F6;
 
-$v-font-color-primary: #354052;
-$v-font-color-secondary: #7F8FA4;
-$v-font-color-tertiary: #B3BAC5;
+
+$v-border-radius: 4px;
+
+$v-primary-font-color: #354052;
+$v-secondary-font-color: #7F8FA4;
+$v-tertiary-font-color: #B3BAC5;
+
+$v-input-default-border-color: #DFE2E6;
+$v-input-hover-border-color: #CDD0D4;
+$v-input-focus-border-color: $v-blue;
+$v-input-error-border-color: $v-red;
+$v-input-disabled-bg-color: #F0F1F2;
+$v-input-disabled-color: #969BA4;
