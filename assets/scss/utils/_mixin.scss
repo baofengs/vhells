@@ -1,0 +1,5 @@
+@import '../base/keyframes';
+
+@mixin spin($duration: 2) {
+    animation: spin #{$duration}s linear infinite;
+}
