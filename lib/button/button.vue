@@ -56,6 +56,7 @@ export default {
 @import '../../assets/scss/utils/mixin';
 
 .v-button {
+    // $v-border-color: cyan;
     display: inline-flex;
     align-items: center;
     justify-content: center;

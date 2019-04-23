@@ -1,10 +1,11 @@
 {
     "name": "vhells",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "whells of vue",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "serve": "npx parcel -p 1234 watch  index.html  --no-cache",
+        "build": "npx parcel build index.js --no-minify --no-cache",
         "dev-test": "parcel watch test/* --no-cache & karma start",
         "test": "parcel build test/* --no-minify --no-cache && karma start --single-run"
     },
